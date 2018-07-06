@@ -5,3 +5,8 @@ var kittens = new Array();
 function destructivelyAppendKitten(name) {
   kittens.push(name);
 }
+
+function destructivelyPrependKitten(name) {
+  kittens.shift(name);
+}
+
