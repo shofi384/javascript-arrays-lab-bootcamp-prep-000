@@ -29,7 +29,8 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  var result = kittens;
+  var result = new Array();
+  result = kittens;
   result.pop();
   return result;
 }
